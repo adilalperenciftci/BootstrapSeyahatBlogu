@@ -1,0 +1,99 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif; /* Genel font ailesini belirledim */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .jumbotron {
+    background-image: url('https://picsum.photos/1200/400?image=1050');
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 40px 0; /* Jumbotron için padding ekledim */
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .navbar-custom {
+    background-color: #343a40;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1);
+    text-align: center;
+  }
+  
+  .navbar-custom .navbar-brand, .navbar-custom .nav-link {
+    color: white;
+  }
+  
+  .blog-post {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; /* Geçiş efekti ekledim */
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #eaeaea;
+    border-radius: 0.5rem;
+  }
+  
+  .blog-post:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Fare ile üzerine gelindiğinde gölge efekti */
+  }
+  
+  .blog-post-title {
+    color: #007bff;
+    margin-bottom: 15px; /* Başlık altındaki boşluğu ayarladım */
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blog-post-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Resim altındaki boşluğu ayarladım */
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px; /* Footer üstündeki boşluğu ayarladım */
+    padding: 2rem 1rem;
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  
+  .footer a {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out; /* Linkler için geçiş efekti */
+  }
+  
+  .footer a:hover {
+    color: #007bff; /* Fare ile üzerine gelindiğinde link rengi */
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .jumbotron {
+      padding: 20px 0; /* Küçük ekranlarda jumbotron paddingini azalttım */
+      padding: 1rem;
+    }
+  
+    .blog-post {
+      margin-top: 10px; /* Küçük ekranlarda blog gönderisi üst boşluğunu azalttım */
+    }
+  }
+  
+  .col-sm-4 {
+    padding-left: 1rem;
+  }
+  
