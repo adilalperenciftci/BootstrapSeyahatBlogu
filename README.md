@@ -1,3 +1,4 @@
 # BootstrapSeyahatBlogu
 Üretken Akademi 3.Hafta ödevi
-![Ekran görüntüsü 2023-11-28 221819](https://github.com/adilalperenciftci/BootstrapSeyahatBlogu/assets/134228585/68fc4c78-dfb5-49ee-8d2d-6f266f25e249)
+
+![Ekran görüntüsü 2023-11-29 011453](https://github.com/adilalperenciftci/adilalperenciftci.io/assets/134228585/35611f95-7217-4c6a-9957-c6676e331ce6)
